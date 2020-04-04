@@ -1,0 +1,15 @@
+1. A variable must begin with a character or an underscore without spaces. The underscore is treated as one type of character. It is very useful to increase readability of 
+   variables having long names. It is advised that the variable names should not start with underscore because library routines mostly use such variable names.
+
+2. The length of the variable varies from compiler to compiler. Generally, most of the compilers support eight characters excluding extension. However, the ANSI standard recognizes 
+   the maximum length of a variable up to 31 characters. Names of functions and external variables length may be less than 31 because external names may be used by assemblers and 
+   loaders over which language has no control. For external names, the variable names should be of six characters and in single case.
+
+3. The variable should not be a C keyword.
+
+4. The variable names may be a combination of uppercase and lowercase characters. For example, suM and sum are not the same. The traditional practice is to use lowercase characters 
+   for variable names and uppercase letters for symbolic constants.
+
+5. The variable name should not start with a digit.
+
+6. Blanks and commas are not permitted within a variable name.

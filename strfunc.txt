@@ -1,0 +1,55 @@
+C compiler supports a large number of string handling library functions. Table below provides the list of many frequently used functions and their description. The header file 
+string.h is to be initialized whenever standard library function is used. In other words, the string handling functions are given in string.h.
+
+ Functions                             Description
+------------            -----------------------------------------------
+
+strlen()                   Determines the length of a string.
+
+strcpy()                   Copies a string from the source to destination.
+
+strncpy()                  Copies characters of a string to another string up to the specified length.
+
+strcmp()                   Compares characters of two strings (function discriminates between small and capital letters)
+
+stricmp()                  Compares two strings (function does not discriminate between the small and capital letters).
+
+strncmp()                  Compares characters of two strings up to the specified length.
+
+strnicmp()                 Compares characters of two strings up to the specified length. Ignores case.
+
+strlwr()                   Converts uppercase characters of a string to lowercase.
+
+strupr()                   Converts lowercase characters of a string to uppercase.
+
+
+
+SAMPLE PROGRAM
+---------------
+
+# include <string.h>
+
+void main()
+
+{
+
+char text[20];
+
+int len;
+
+clrscr();
+
+printf(“Type Text Below.\n”);
+
+gets(text);
+
+len=strlen(text);
+
+printf(“Length of String =%d”,len);
+
+}
+
+
+DO YOU WANT TO RUN THIS CODE ?
+PRESS 1 FOR YES OR 0 FOR NO...
+

@@ -1,0 +1,46 @@
+A character is a part of a word, sentence or paragraph. By using different characters, words, expressions and statements can be created on the basis of the requirement. This 
+creation depends upon the computer on which a program runs.
+
+A character is represented by any alphabets in lowercase or uppercase, digits or special characters.
+
+Valid C character set which are as follows: (i) Letters (ii)Digits (iii) White Spaces & Escape Sequences and (iv) Special Characters. As C character set consists of escape 
+sequences so each escape sequence begins with back slash (\) and it represents a single character. Any character can be represented as character constant using escape sequence.
+
+The special characters listed are represented in the computer by numeric values. The C characters are assigned unique codes. There are many character codes used in 
+the computer system. The widely and standard codes used in computer are ASCII and EBCDIC (Extended Binary Coded Decimal Interchange Code).
+
+  Special characters           Name
+  ___________________         ______
+
+1.     ,                      Comma
+2.     &                      Ampersand
+3.     .                      Period or dot
+4.     ^                      Caret
+5.     ;                      Semi-colon
+6.     *                      Asterisk
+7.     :                      Colon
+8.     -                      Minus sign
+9.     '                      Apastrophe
+10.    +                      Plus sign
+11.    "                      Quotation mark
+12.    <                      Less than
+13.    >                      Greater than
+14.    !                      Exclamation mark
+15.    |                      Vertical bar
+16.    ()                     Parenthesis
+17.    []                     Brackets
+18.    {}                     Curly braces
+19.    /                      Slash
+20.    \                      Back slash
+21.    ~                      Tilde
+22.    %                      Percent 
+23.    _                      Underscore
+24.    #                      Hash
+25.    $                      Dollar
+26.    =                      Equal to
+27.    ?                      Question mark
+28.    @                      At the rate   
+
+ASCII Code: ASCII stands for American Standard Code for Information Interchange, is the code of two types. One uses 7 bits and other uses 8 bits. The 7-bit code represents 
+            128 different characters and the 8-bit code represents 256 characters. For example, the character A is represented in 7-bit code as 10000012(decimal 65). Refer 
+            to Appendix A for the list of characters and their equivalent number.

@@ -1,0 +1,10 @@
+The keywords signed, unsigned, short and long are type modifiers. A type modifier changes the meaning of basic data type and produces a new data type. Each of these type modifiers 
+is applicable to the basic data type int. The modifiers signed and unsigned are also applicable to the type char. The long type modifier can be applicable to double type.
+
+Example:
+
+long l;         /* int data type is applied */
+
+int s;         /* signed is default */
+
+unsigned long int;         /* int keyword is optional */

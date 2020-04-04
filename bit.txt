@@ -1,0 +1,40 @@
+C supports a set of bitwise operators for bit manipulation as listed in Table 3.8. C supports six bit operators. These operators can operate only on integer operands such as 
+int, char, short, long.
+
+ Operators       Meaning
+-----------     ---------
+
+>>              Right Shift
+<<              Left Shift
+^               Bitwise XOR
+~               One's complement
+&               Bitwise AND
+|               Bitwise OR
+
+
+EXAMPLE CODE
+-------------
+
+void main()
+
+{
+
+int x,y;
+
+clrscr();
+
+printf(“Read The Integer from keyboard (x) :-”);
+
+scanf(“%d”, &x);
+
+x>>=2;
+
+y=x;
+
+printf(“The Right shifted data is = %d”,y);
+
+}
+
+
+DO YOU WANT TO RUN THIS CODE ?
+PRESS 1 FOR YES OR 0 FOR A NO...

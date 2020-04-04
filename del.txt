@@ -1,0 +1,13 @@
+The language pattern of C uses special kind of symbols, which are called delimiters.
+
+Delimeters         Symbols             Uses
+___________       __________          _________________
+
+Colon               :                 Useful for label
+Semi-colon          ;                 Terminates statements
+Parenthesis         ()                Used in expression and function
+Square bracket      []                Used for array declaration
+Curly braces        {}                Scope of statement
+Hash                #                 Preprocessor directive
+Comma               ,                 Variable separator
+Angle brackets      <>                Header file

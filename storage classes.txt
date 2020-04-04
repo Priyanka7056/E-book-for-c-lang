@@ -1,0 +1,6 @@
+1.	Types of storage classes, lifetime and scope of a variable
+2.	Automatic variable
+3.	External variable
+4.	Static variables
+5.	Static external variables 
+6.	Register variables

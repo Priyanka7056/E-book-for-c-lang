@@ -1,0 +1,6 @@
+We can also keep some variables in the CPU registers instead of memory. The keyword register tells the compiler that the variable list followed by it is kept on the CPU registers, 
+since register access is faster than the memory access. If the CPU fails to keep the variables in CPU registers, in that case, the variables are assumed as auto and stored in memory. 
+CPU registers are limited in number. Hence, we cannot declare more variables with register variables. However, compiler automatically converts register variables to non-register variables, 
+once the limit is reached. User cannot determine the success or failure of register variables. We cannot use register class for all types of variables. The CPU registers 8086 in microcomputer 
+are 16 bit registers. The data types float and double need more than 16 bits space. If we define variables of these data type with register class, no errors will be shown. The compiler treats 
+them as a variable of auto sclasss.

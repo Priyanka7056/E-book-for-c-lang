@@ -1,0 +1,15 @@
+The C keywords are reserved words by the compiler. All the C keywords have been assigned fixed meanings and they cannot be used as variable names. However, few C compilers allow 
+constructing variable names, which exactly coincide with the keywords. It is suggested that the keywords should not be mixed up with variable names. For utilizing the keywords 
+in a program, no header file is required to be included. The descriptions of the keywords are explained in the different programs/ chapters.
+
+Some C keywords are :-
+___________________
+
+auto      double      int        struct
+break     else        long       switch
+case      enum        register   typedef
+char      extern      return     union
+const     float       short      unsigned
+continue  for         signed     void
+default   goto        sizeof     volatile
+do        if          static     while

@@ -1,0 +1,29 @@
+Characters are the basic requirement of any program. A program contains statements and statements are built with words that has specific meaning to be understood by the compiler. 
+In C language, a sequence of characters, digits and symbols enclosed within double quotation marks is called a string. The string is always declared as character array and its 
+elements are stored in contiguous memory locations.
+
+In other words, in C, a string is defined as an array of characters. To manipulate text such as words and sentences, normally strings are used. Every string is terminated 
+with ‘\0’ (NULL) character. The NULL character is a byte with all bits at logic zero. Hence, its decimal value is zero. A pointer can access the string. The value of the string 
+is its base address, i.e. addresses of the first character. When a string is created, a few compilers place the string in the memory where it cannot be modified.
+
+An example of a string is as follows:
+
+char name[]={‘I’,‘N’,‘D’,‘I’,‘A’,‘\0’};
+
+Each character of the string occupies 1 byte of memory. The last character is always ‘\0’. It is not compulsory to write ‘\0’ in string. The compiler automatically puts ‘\0’ 
+at the end of the character array or string. The characters of a string are stored in contiguous (neighbouring) memory locations. In the above example, the compiler automatically 
+determines the size of the array. Table 8.1 shows the storing of string elements in contiguous memory locations.
+
+While storing characters in a string array one should confirm if the array length is large enough to store the given string. Moreover, double quotes can be used to store a word 
+or constants with type char. The length of the characters in “MAHARASHTRA” is 11 but in C, the character array should have a length of 12. One more character is needed at the end 
+of string, which is called a null character.
+
+The declaration is as follows:
+
+char name[12]=“MAHARASHTRA”
+
+or
+
+char name[12]={‘M’,‘A’,‘H’,‘A’,‘R’,‘A’,‘S’,‘H’,‘T’,‘R’,‘A’,‘\0’};
+
+C permits the storage of string to any length. However, if a string exceeds the limit of a character array, it will overwrite the data beyond the array.

@@ -1,0 +1,8 @@
+The external storage class indicates that the variable has been defined at other place other than the place where it is declared. It can be declared in another source file. 
+The variable declaration generally appears before main() and use of keyword extern is optional. Initialization cannot be done because its value is defined in another source file. 
+Memory is not allotted in the source program, and it is allotted, where it is defined.
+
+The variables that are available to all the functions, i.e. from entire program, can be accessed. The variables are called external or global variables. External variables are 
+declared outside the function body. In case, in a program both external and auto variables are declared with the same name, the first priority is given to the auto variable. 
+In this case, external variable is hidden. If we declare external variables in the program, there is no need to pass these variables to other function. The compiler does not 
+allocate memory for these variables. It is already allocated for it in another module where it is declared as a global variable.

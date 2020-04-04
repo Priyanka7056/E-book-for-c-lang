@@ -1,0 +1,22 @@
+All C compilers support a variety of data types. This enables the programmer to select the appropriate data type as per the need of the application. Generally, data is represented 
+using numbers or characters. The numbers may be integers or real. The basic data types are char, int, float and double.
+
+The C supports a number of qualifiers that can be applied to these basic data type. The short and long qualifiers provide different length to int. The short is always 16 bits and 
+long is 32 bits, i.e. int is either 16 or 32 bits. The compiler is free to choose a suitable size depending upon the hardware. However, the restriction is that short or int is at 
+least of 2 bytes and long is at least of 4 bytes. The short should not be longer than int and int should not be longer than long.
+
+The unsigned and signed qualifiers can be applied to char, int and long. The unsigned data types are always zero or positive. They follow the law of arithmetic modulo 2n, where n 
+is the number of bits in the type. For example, char are 8 bits with combination of negative and positive values (-128 to 127) (two’s complement). The unsigned char supports values 
+0 to 255. The characters are signed or unsigned, the printable char are always positive.
+
+1. Basic Data Type:
+   (a) Integer (int), 
+   (b) character (char), 
+   (c) floating point (float), 
+   (d) double floating point (double).
+
+2. Derived Data Type: Derived data types are pointers, functions and arrays.
+
+3. User-defined Type: Struct, union and typedef are user-defined data types.
+
+4. void Data Type

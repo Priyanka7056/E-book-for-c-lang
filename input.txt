@@ -1,0 +1,12 @@
+1.	Formatted functions
+2.	Flags, widths and precision with format strings
+3.	Conversion symbols and Escape sequences
+4.	Unformatted functions
+    a)	Character i/o
+    b)	String i/o
+    c)	File i/o    
+5.	Commonly used library functions
+6.	Strong points for understandability
+
+
+

@@ -1,0 +1,21 @@
+A function is a self-contained block or a sub-program of one or more statements that perform a special task when called.
+
+Why Use Functions?
+-------------------
+1. If we want to perform a task repetitively, then it is not necessary to re-write the particular block of the program again and again. Shift the particular block of statements 
+   in a user-defined function. The function defined can be called any number of times to perform the task.
+
+2. Using functions, large programs can be reduced to smaller ones. It is easy to debug and find out the errors in it. It also increases readability.
+
+How a Function Works?
+----------------------
+1. Once a function is defined and called, it takes some data from the calling function and returns a value to the called function.
+
+2. The detail of inner working of a function is unknown to the rest of the program. Whenever a function is called, control passes to the called function and working of calling 
+   function is paused. When the execution of a called function is completed, control returns back to the calling function and executes the next statement.
+
+3. The values of actual arguments passed by the calling function are received by the formal arguments of the called function. The number of actual and formal arguments should be 
+   the same. Extra arguments are discarded if they are defined. If the formal arguments are more than the actual arguments, then the extra arguments appear as garbage. Any 
+   mismatch in the data type will produce the unexpected result.
+
+4. The function operates on formal arguments and sends back the result to calling function. The return() statement performs this task.

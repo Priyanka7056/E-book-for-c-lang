@@ -1,0 +1,33 @@
+The plain characters are straightforward and are used to write data on the screen. On the other hand, the conversion specification retrieves arguments from the list of arguments 
+and apply different formatting to them. All format specification starts with % and a format specification letter after this symbol. It indicates the type of data and its format. 
+In case the format string does not match the corresponding variable, the result will not be correct.
+
+1. Flags: Flags are used for output justification, numeric signs, decimal points, trailing zeros. The flag (-) left justifies the result. If it is not given, the default is right 
+          justification. The plus (+) signed conversion result always starts with a plus (+) or a minus (-) sign.
+
+2. Width specifier : It sets the minimum field width for an output value. Width can be specified through a decimal point or using an asterisk ‘*’.
+
+3. Precision specifiers: Precise results on the screen can be obtained. The precision specifier always starts with a period or a dot in order to separate it from any preceding 
+                         width specifiers.
+
+
+SAMPLE CODE
+-----------
+
+void main()
+
+{
+
+clrscr();
+
+printf(“\n%.2s”,“abcdef”);
+
+printf(“\n%.3s”,“abcdef”);
+
+printf(“\n%.4s”,“abcdef”);
+
+}
+
+
+DO YOU WANT TO RUN THIS PROGRAM ?
+PRESS 1 FOR YES OR 0 FOR A NO...

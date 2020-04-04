@@ -1,0 +1,44 @@
+With formatted functions, the input or output is formatted as per our requirement. The readability in easy way is possible with formatted functions. For example, with 
+formatted functions one can decide how the result should appear or display on the screen. The result can be shown on the second line or it can appear after leaving 
+some space or if the result is a real number then decisions on the number of digits before and after decimal point, etc. will be taken care in formatted functions. All 
+I/O functions are defined as stdio.h header file, which can be initialized at the starting of a program; that is this header file should be included in the program at 
+the beginning. However, formatting is not possible with unformatted functions. 
+
+Streams perform all input and output operations. The streams are nothing but a sequence of bytes. In input operations, the bytes (data) flow from input device such as 
+keyboard, a disc drive or network connection to main memory. Similarly, in output operation bytes flow from main memory to output devices such as monitor, printer, 
+disc drive, network connection.
+
+When a program performs input and output operations, the streams are connected to the program automatically. The operating system always allows streams to redirect to 
+other devices. While performing these operations, if any error occurs, it will be reported on the screen by the third stream called standard error stream.
+
+Further elaboration on formatted functions is as follows.
+
+Formatted Functions: The formatted input/output functions read and write, respectively, all types of data values. They require format string to produce formatted 
+results. Hence, they can be used for both reading and writing of all data values. The formatted functions return values after execution. The return value is equal to 
+the number of variables successfully read/written. Using this value, the user can find out the error that occurred during reading or writing of data. Using this function, 
+the given numeric data can be represented in float, integer and double to possible available limits of the language. 
+
+The syntax of input function for inputting the data such as scanf() is as follows:
+
+scanf(“control string”, argu1, argu2,. . .);
+
+Precisely, if we write scanf() as scanf(“%d”,&x); where %d is a control string which is nothing but conversion specification and it is to be placed within double quote. 
+The other part is the argument and a sign & (ampersand) must precede it. Arguments are the identifiers.
+
+For displaying the result, printf() formatted function is used.
+
+1. The printf() statement: The formatted output as per the programmers requirement is displayed on the screen with printf(). The list of variables can be indicated in 
+                           the printf(). The values of variables are printed according to the sequence mentioned in printf(). The printf() function prints all types of 
+                           data values to the console. It translates internal values to characters. It requires format conversion symbol or format string and variable 
+                           names to print the data. The format string symbol and variable names should be the same in number and type. The syntax of printf() statement 
+                           is as follows:
+ 
+
+                           printf(“Control string”,variable1,variable2,. . .variable n);
+
+ 
+
+                           The control string specifies the field format such as %d, %s, %g, %f, and variables as taken by the programmer.
+
+
+

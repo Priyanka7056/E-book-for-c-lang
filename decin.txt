@@ -1,0 +1,51 @@
+The declaration of variables should be done in declaration part of the program. The variable must be declared before they are used in the program. Declaration ensures the following 
+two things: 
+(i) compiler obtains the variable name and 
+(ii) it tells to the compiler data type of the variable being declared and helps in allocating the memory. 
+
+The variable can also be declared before main() such variables are called external variables.
+
+ The syntax of declaring a variable is as follows.
+
+Syntax:
+
+Data_type variable_name;
+
+Example:
+
+int age;
+
+char m;
+
+float s;
+
+double k;
+
+int a,b,c;
+
+The int, char, float and double are keywords to represent data types. Commas separate the variables, in case variables are more than one.
+___________________________________________________________________________________________________________________________________________________________
+
+Variables declared can be assigned or initialized using assignment operator ‘=’. The declaration and initialization can also be done in the same line.
+
+Syntax:
+
+variable_name = constant;
+
+or
+
+data_type variable_name= constant;
+
+Example:
+
+x=5; where x is an integer variable.
+
+Example:
+
+int y=4;
+
+Example:
+
+int x,y,z;         /* Declaration of variables */
+
+The third example as cited above for declaration of variables is also a valid statement.

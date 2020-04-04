@@ -1,0 +1,55 @@
+Function definition is as per the format given below.
+
+return_type function_name (argument/parameter list)
+
+{
+
+local variable declaration;
+statement1;
+statement2;
+return(value);
+}
+
+The following code illustrates the working of a function with its necessary components:-
+
+int abc (int, int, int);
+
+void main( )
+
+{
+int x, y, z;
+--------------------
+
+--------------------
+}
+
+int abc(int l,int k,int j) Function definition and formal arguements
+{
+--------------------
+
+--------------------
+
+return(); return value
+
+}
+
+1. The return type of the function can be int, float, double, char, void,etc., depending upon what is to be returned from called function to the calling function. By default 
+   in ANSI C, function returns int, if return type is not mentioned.
+
+2. Actual argument: The arguments of calling functions are actual arguments. Variables ‘ x ’, ‘ y ’ and ‘ z ’ are actual arguments.
+
+3. Formal argument: The arguments of the called function are formal arguments. Variables ‘ l ’, ‘ k ’ and ‘ j ’ are formal arguments.
+   
+4. Function name: A function name follow the same rule as we use for naming a variable.
+
+   Example:
+
+   sum (int a, int b);
+
+   where sum() is a user-defined function. This is a function call and ‘ a ’ and ‘ b ’ are integer arguments. The function call must be ended by a semi-colon (;).
+
+5. Argument/parameter list: The argument list means variable names enclosed within the parentheses. They must be separated by a comma (,). These formal arguments (consignment) 
+   receive values from the actual argument for performing the communication between consignee and consignor functions.
+
+6. Function call: A compiler executes the function when a semi-colon (;) is followed by the function name. A function can be called simply using its name like other C statement, 
+   terminated by a semi-colon (;).

@@ -1,0 +1,9 @@
+Variables are the basic objects manipulated in a program. Declaration gives an introduction of variable to compiler and its properties like scope, range of values and memory 
+required for storage. A variable is used to store values. It has memory location and can store single value at a time.
+
+When a program is executed, many operations are carried out on the data. The data types are integers, real or character constants. The data is stored in the memory, and at the 
+time of execution it is fetched for carrying out different operations on it.
+
+A variable is a data name used for storing a data value. Its value may be changed during the program execution. The variable value keeps on changing during the execution of the 
+program. In other words, a variable can be assigned different values at different times during the program execution. A variable name may be declared based on the meaning of the 
+operation. Variable names are made up of letters and digits.

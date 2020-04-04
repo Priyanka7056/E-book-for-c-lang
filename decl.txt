@@ -1,0 +1,45 @@
+The syntax for initialization of a string is as follows:
+
+char name[ ]=“INDIA”;
+
+The C compiler inserts the NULL (\0) character automatically at the end of the string. So initialization of the NULL character is not essential. Even if null is added at the 
+end of string, compiler does not throw any error.
+
+By initializing character arrays as per the following ways, the programmer can see the output:
+
+char name[6]={‘S’,‘A’,‘N’,‘J’,‘A’,‘Y’};
+char name[7]={‘S’,‘A’,‘N’,‘J’,‘A’,‘Y’};
+
+In case (a) the output will not be ‘SANJAY’ as it contains some garbage value at the end of SANJAY. Array index/size in this example is initialized with [6], which is exactly 
+equal to the number of characters within the braces. The NULL character must be included at the end of string and hence, the array index/size must be [7] instead of [6] as 
+given in statement (b).
+
+The array size must be equal to the number of characters of the word + NULL character. In case the NULL character is not taken into account (statement (a)) the string followed 
+by the first string (statement (b)) will be displayed.
+
+
+ SAMPLE PROGRAM
+----------------
+
+void main()
+
+{
+
+char name1[6]={‘S’,‘A’,‘N’,‘J’,‘A’,‘Y’};
+
+char name2[7]={‘S’,‘A’,‘N’,‘J’,‘A’,‘Y’};
+
+clrscr();
+
+printf(“Name1 = %s”,name1);
+
+printf(“\nName2 = %s”,name2);
+
+}
+
+
+DO YOU WANT TO RUN THIS CODE ?
+PRESS 1 FOR YES OR 0 FOR NO...
+
+
+ 

@@ -1,0 +1,16 @@
+1. It contains a powerful data definition. The data type supported are characters, alphanumeric, integers, long integer, floats and double. It also supports string 
+   manipulation in the form of character array.
+
+2. C supports a powerful set of operators.
+
+3. It also supports powerful graphics programming and directly operates with hardware. Execution of program is faster.
+
+4. An assembly code is also inserted into C programs.
+
+5. C programs are highly portable on any type of OS platforms.
+
+6. System programs such as compilers, operating systems can be developed in C. For example, the popular operating system UNIX is developed in C.
+
+7. The C language has 32 keywords and about 145 library functions and near about 30 header files.
+
+8. C works closely with machines and matches assembly language in many ways.

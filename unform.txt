@@ -1,0 +1,98 @@
+C has three types of I/O functions.
+
+1. Character I/O
+2. String I/O
+3. File I/O
+
+1. Character I/O
+___________________
+
+1. getchar() -
+----------------
+This function reads a character-type data from standard input. It reads one character at a time till the user presses the enter key. The syntax of the getchar() is as follows:
+
+Variable name=getchar();
+
+Example:
+
+char c;
+
+c=getchar();
+
+
+2. putchar() -
+-----------------
+This function prints one character on the screen at a time, read by the standard input.
+
+The syntax is as follows:
+
+putchar(variable name);
+
+
+Example:
+
+char c=‘C’;
+
+putchar (c);
+
+
+3. getch() & getche()
+-----------------------
+These functions read any alphanumeric character from the standard input device. The character entered is not displayed by the gectch() function.
+
+Syntax of getche() is as follows:
+
+ getche();
+
+
+4. putch() :
+--------------
+This function prints any alphanumeric character taken by the standard input device.
+
+______________________________________________________________________________________________
+
+2. String I/O
+______________
+
+1. gets () :
+-----------
+This function is used for accepting any string through stdin (keyboard) until enter key is pressed. The header file stdio.h is needed for implementing 
+the above function.
+
+Format of gets() is as follows:
+
+char str[length of string in number];
+
+gets(str)
+
+
+2. puts() :
+------------
+This function prints the string or character array. It is opposite to gets().
+
+char str[length of string in number];
+
+gets(str);
+
+puts(str);
+
+
+3. cgets() :
+-------------
+This function reads string from the console. The syntax is as follows.
+
+Syntax:
+
+cgets(char *st);
+
+It requires character pointer as an argument. The string begins from st[2].
+
+
+
+4. cputs() :
+-------------
+This function displays string on the console. The syntax is as follows.
+
+Syntax:
+
+cputs(char *st);

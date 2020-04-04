@@ -1,0 +1,35 @@
+The variables declared in C programs are totally different from other languages. We can use the same variable names in the C program in separate blocks. When we declare a variable, 
+it is available only to a specific part or block of the program. Remaining block or other functions cannot access the variable. Variables declared within function are called internal
+variables and those declared outside are called external or global variables.
+
+The area or block of the C program from where the variable can be accessed is known as the scope of variables. The area or scope of the variable depends on its storage class, 
+i.e. where and how it is declared. There are four scope variables.
+
+1. Function
+2. File
+3. Block
+4. Function prototype
+
+The storage class of a variable tells the compiler:
+
+1. the storage area of a variable
+2. the initial value of a variable if not initialized
+3. the scope of a variable
+4. the life of a variable, i.e. how long the variable would be active in a program.
+
+
+Any variable declared in C can have any one of the above four storage classes:
+
+1. Automatic variables
+2. External variables
+3. Static variables
+4. Static external variables
+5. Register variables 
+
+
+Lifetime of a Variable- Every variable has its lifetime, i.e. its time duration during which its status is active in the program. We can also say that lifetime of a variable is the 
+                        time gap between its declaration and cleanup. The life time depends upon the storage class. For example, auto variable gets destroyed immediately when the 
+                        function execution is over, whereas static variable remains in the memory.
+
+Scope of a Variable- Visibility of a variable is another property. It defines its scope. The scope is of two types, i.e. local and global. Global is recognized throughout the program,
+                     whereas the local variable scope is limited to the declaration block.

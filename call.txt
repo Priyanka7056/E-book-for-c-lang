@@ -1,0 +1,10 @@
+There are two ways in which we can pass arguments to the function.:-
+
+1. Call by value: In this type, the value of actual arguments is passed to the formal arguments and operation is done on the formal arguments. Any change in the formal argument 
+                  made does not affect the actual arguments because formal arguments are the photocopy of the actual argument. Hence, when a function is called by the call by 
+                  value method, it does not affect the actual contents of the arguments. Changes made in the formal arguments are local to the block of the called function. 
+                  Once control returns back to the calling function, changes made vanish. The example given below illustrates the use of call by value.
+
+2. Call by reference: In this type, instead of passing values, addresses (reference) are passed. Function operates on addresses rather than values. Here, the formal arguments 
+                      are pointers to the actual argument. In this type, formal arguments point to the actual argument. Hence, changes made in the argument are permanent. 
+                      The example given below illustrates the use of call by value.

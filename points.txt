@@ -1,0 +1,10 @@
+Computer produces output, which is useful for the user. Therefore, the clarity and neatness of result should appear in the output. The following are a few steps which can be 
+followed to produce the neatness output:
+
+1. Give space between numbers.
+2. Provide suitable and problem-related variable names and headings.
+3. Provide user prompt so that the user can understand what to do.
+4. Provide a gap between two lines so that the text should be readable.
+5. Alert the user about what to do and what not to do.
+6. Use formatted inputs and outputs for precisely inputting the data and outputting results.
+7. It is recommended to use escape sequence characters such as \t, \b, \n.

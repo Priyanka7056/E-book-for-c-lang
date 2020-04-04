@@ -1,0 +1,8 @@
+The auto variables are defined inside a function. A variable declared inside the function without storage class name is, by default, an auto variable. These functions are declared
+on the stack. The stack provides temporary storage. The scope of the variable is local to the block in which they are defined. These variables are available only to the current block
+or program. Once the executions of the function take place and return turns off the function, the contents and existence of the auto variables or local variables vanish. Whenever a 
+function is executed, all auto variables are allocated memory and de-allocated when the execution of function ends. auto variables are safe, i.e. they cannot be accessed directly by 
+other functions.
+
+The keyword ‘auto’ is used for declaration of automatic variables. By default, every variable pertains to auto storage class.
+

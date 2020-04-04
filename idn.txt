@@ -1,0 +1,23 @@
+A symbolic name is used to refer to a variable, constant, function, structure, union etc. This process is done with identifiers. In other words, identifiers are the names of 
+variables, functions, arrays, etc. They refer to a variety of entities such as structures, unions, enumerations, constants, typedef names, functions and objects (see Figure 2.3). 
+An identifier always starts with an alphabet, and it is a plain sequence of alphabets and/or digits.
+
+Identifiers are user-defined names. They are generally defined in lowercase letters. However, the uppercase letters are also permitted. The underscore (_) symbol can be used as 
+an identifier. In general, an underscore is used by a programmer as a link between two words for the long identifiers.
+
+
+Valid identifiers are as follows:
+
+length, area, volume, sUM, Average
+
+Invalid identifiers are as follows:
+
+Length of line, S+um, year’s
+
+
+User-defined identifiers are as follows:
+
+#define N 10
+#define a 15
+
+Here, ‘N’ and ‘a’ are user-defined identifiers.

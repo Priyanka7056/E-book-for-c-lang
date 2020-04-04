@@ -1,0 +1,64 @@
+The printf() function is used for displaying various data types. The printf() function with %s format is to be used for displaying a string on the screen. Various printf() 
+formats are shown in Table, when char text[15]=“PRABHAKAR”;
+
+Sr. No.        Statement                Output
+
+1.         printf (“%s\n”,text);       PRABHAKAR
+
+2.         printf (“%.5s\n”,text);     PRABH
+
+3.         printf (“%.8s\n”,text);     PRABHAKA
+
+4.         printf (“%.15s\n”,text);    PRABHAKAR
+
+5.         printf (“%-10.4s\n”,text);  PRAB
+
+6.         printf (“%11s”,text);       PRABHAKAR
+
+1. The 1st statement displays the output ‘PRABHAKAR’. The entire string is displayed with the first statement.
+
+2. We can also specify the precision with character string, which is to be displayed. The precision is (the number of characters to be displayed) provided after the decimal 
+   point. For instance in the 2nd statement in Table ,   the first five characters are displayed. Here, the integer value 5 on the right side of the decimal point specifies 
+   the five characters to be displayed.
+
+3. In the 3rd statement, the first eight characters are displayed.
+
+4. Statement number four displays the entire string.
+
+5. The 5th statement with minus (-) sign (e.g. %-10.4s) displays the string with left justified.
+
+6. When the field length is less than the length of the string the entire string is printed. When it is greater than the length of the string, blank spaces are initially 
+   printed followed by the string. This effect can be seen in the 6th statement.
+
+7. When the number of characters to be displayed is specified as zero after decimal point nothing will be displayed.
+
+
+
+ SAMPLE PROGRAM
+----------------
+
+void main()
+
+{
+
+char text[15]=“PRABHAKAR”;
+
+clrscr();
+
+printf(“%s\n”,text);
+
+printf(“%.5s\n”,text);
+
+printf(“%.8s\n”,text);
+
+printf(“%.15s\n”,text);
+
+printf(“%-10.4s\n”,text);
+
+printf(“\n%11s”,text);
+
+}
+
+
+DO YOU WANT TO RUN THIS CODE ?
+PRESS 1 FOR YES OR 0 FOR N0..

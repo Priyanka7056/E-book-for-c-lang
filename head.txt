@@ -1,0 +1,9 @@
+stdio.h: Standard input and output files. All formatted and unformatted functions include file operation functions defined in this file. The most useful formatted printf() and 
+         scanf() are defined in this file. This file must be included at the top of the program. Most useful functions from this header files are printf(), scanf(), getchar(), 
+         gets(), putc() and putchar().
+
+conio.h: Console input and output. This file contains input and output functions along with a few graphic-supporting functions. The getch(), getche() and clrscr() functions are 
+         defined in this file.
+
+math.h: This file contains all mathematical and other useful functions. The commonly useful functions from this files are floor(), abs(), ceil(), pow(), sin(), cos() and tan(). 
+

@@ -1,0 +1,6 @@
+1.	Basics of functions
+2.	Function definition
+3.	The return statements
+4.	Types of functions
+5.	Call by value and references
+

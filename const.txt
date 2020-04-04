@@ -1,0 +1,72 @@
+The constants in C are applicable to the values, which do not change during the execution of a program. There are several types of constants in C. 
+
+Types of constants-
+
+                                                         Numerical Constants
+                                                        ---------------------
+1. Integer Constants: These constants are represented with whole numbers. They require a minimum of 2 bytes and a maximum of 4 bytes of memory.
+                      The following concepts are essential to follow the numerical constants:
+
+                     a) Numerical constants are represented with numbers. At least one digit is needed for representing the number.
+                     b) The decimal point, fractional part, or symbols are not permitted. Neither blank spaces nor commas are permitted.
+                     c) Integer constant could be either positive or negative or may be zero.
+                     d) A number without a sign is assumed as positive.
+
+
+                     Besides representing the integers in decimal, they can also be represented in octal or hexadecimal number system based on the requirement.
+
+                     Octal number system has base 8 and the hexadecimal number system has base 16. The octal numbers are 0, 1, 2, 3, 4, 5, 6, and 7 and the hexadecimal numbers are 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, and F.
+
+                     The representation of octal numbers in C would be done with leading digit 0 and for hex representation, with leading OX or OX.
+
+                     Examples of octal and hexadecimal numbers:
+
+                     Octal numbers – 027, 037, 072
+
+                     Hexadecimal numbers – 0X9, 0Xab, 0X4
+
+2. Real Constants: Real constants are often known as floating point constants. Real constants can be represented in exponential or fractional form. Integer constants are unfit to represent many quantities. Many parameters or quantities 
+                   are defined not only in integers but also in real numbers. For example, length, height, price, distance, etc. are also measured in real numbers.
+                   
+                   The following concepts are essential to follow the real numbers:
+
+                   a) The decimal point is permitted.
+                   b) Neither blank spaces nor commas are permitted.
+                   c) Real numbers could be either positive or negative.
+                   d) The number without a sign is assumed as positive.
+                   e) Examples of real numbers are 2.5, 5.521, 3.14, etc.
+
+                   The real constants can be written in exponential notation, which contains fractional and exponential parts. For example, the value 2456.123 can be written as 2.4561 X e+3.
+
+                   The part that precedes e is called mantissa and the part that follows it is an exponent. In this example, 2.4561 is the mantissa and +3 is the exponent.
+
+                   The following points must be noted while constructing a real number in exponential form:
+
+                   a) The real number should contain a mantissa and an exponent.
+                   b) The letter ‘e’ separates the mantissa and the exponent and it can be written in lower or upper case.
+                   c) The mantissa should be either a real number represented in decimal or integer form.
+                   d) The mantissa may be either positive or negative.
+                   e) The exponent should be an integer that may be positive or negative.
+
+                   Some valid examples are 5.2e2,–2, 5.0e–5, 0.5e–3, etc.
+
+                   In double type also the real numbers can be expressed with mantissa and exponent parts.
+
+
+
+                                                         Character Constants
+                                                        ---------------------
+1. Single Character Constants: A character constant is a single character. It can also be represented with single digit or a single special symbol or white space enclosed within a pair of single 
+                               quote marks or character constants are enclosed within single quotation marks.
+                               Example:
+
+                              ‘a’, ‘8’, ‘-’
+
+                              Length of a character, at the most, is one character.
+
+                              Character constants have integer values known as ASCII values. For example the statement printf (“%c %d”, 65, ‘B’) will display character ‘A’ and 66.
+
+2. String Constants: String constants are a sequence of characters enclosed within double quote marks. The string may be a combination of all kinds of symbols.
+                     Example:
+
+                     “Hello”, “India”, “444”, “a”.

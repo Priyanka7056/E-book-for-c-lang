@@ -1,0 +1,6 @@
+The static external variable can be accessed as external variables only in the file in which they are defined. No other file can access the static external variables that are 
+defined in another file.
+
+Note: The difference between an ordinary external variable and a static external variable is of scope. An ordinary external variable is visible to all functions in the file 
+      and can be used by functions in other files. A static external variable is visible only to functions in its own file and below the point of definition.
+

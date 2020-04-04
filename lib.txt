@@ -1,0 +1,44 @@
+1.
+
+1. clrscr()
+-------------
+This function is used to clear the screen. It clears previous output from the screen and displays the output of the current program from the first line of the screen. It is 
+defined in conio.h header file. The syntax is as follows.
+
+Syntax:
+
+clrscr();
+
+ 
+
+2. exit()
+-----------
+This function terminates the program. It is defined in process.h header file. The syntax is as follows.
+
+Syntax:
+
+exit();
+
+ 
+
+3. sleep()
+-----------
+This function pauses the execution of the program for a given number of seconds. The number of seconds is to be enclosed between parentheses. It is defined in dos.h header 
+file. The syntax is as follows.
+
+Syntax:
+
+sleep(1);
+
+
+4. system()
+-------------
+
+This function is helpful in executing different DOS commands. It returns 0 on success and –1 on failure. The syntax is as follows.
+
+Syntax:
+
+     system (“dir”);
+
+The command should be enclosed within double quotation marks. After we run this command using C, directory will be displayed. Programmer can verify this command.
+

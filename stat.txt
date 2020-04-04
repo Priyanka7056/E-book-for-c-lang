@@ -1,0 +1,5 @@
+The static variable may be of an internal or external type, depending where it is declared. If declared outside the function body, it will be static global. In case, declared 
+in the body or block, it will be an auto variable. When a variable is declared as static, its garbage value is removed and initialized to NULL value. The contents stored in 
+these variables remain constant throughout the program execution. A static variable is initialized only once; it is never reinitialized. The value of the static variable 
+persists at each call and the last change made in the value of the static variable remains throughout the program execution. Using this property of the static variable, we 
+can count how many times a function was called.

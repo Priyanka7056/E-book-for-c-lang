@@ -1,0 +1,8 @@
+For many years, there was no standard version of C language, and the definition provided in reference manual was followed. Due to this reason portability
+feature of C language was not provided from one computer to another. To overcome this discrepancy, a committee was set-up in the summer of 1983 to create
+a standard C version which is popularly known as American National Standard Institute (ANSI) standard.
+
+This committee had defined once and for all a standard C language. The ANSI C standard was adopted in 1989, and its first copy of C language was introduced
+in the market in 1990. Thus , ANSI C is internationally recognized as a standard C language. The purpose of this standard is to enhance the portability and
+efficient execution of C language programs on different computers. Today, all computers of C support the ANSI standards. in other words, almost all C 
+compilers avaiolable in the market are designed to follow the ANSI C standard.    

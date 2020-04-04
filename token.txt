@@ -1,0 +1,10 @@
+A compiler designer prescribes rules for making a program using statements. The smallest unit in a program/statement is called a token. The compiler identifies them as tokens.
+
+The tokens are as follows:
+
+1. Keywords: Key words are reserved by the compiler. There are 32 keywords (ANSI Standard).
+2. Variables: These are user defined. Any number of variables can be defined.
+3. Constants: Constants are assigned to variables.
+4. Operators: Operators are of different types and are used in expressions.
+5. Special Characters: These characters are used in different declarations in C.
+6. Strings: A sequence of characters.

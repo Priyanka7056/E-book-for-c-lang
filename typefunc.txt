@@ -1,0 +1,26 @@
+Depending on arguments present, the return value sends the result back to the calling function. Based on this, the functions are divided into four types.
+
+1. Without arguments and return values-
+  
+   (a) Data is neither passed through the calling function nor sent back from the called function.
+   (b) There is no data transfer between calling and called functions.
+   (c) The function is only executed and nothing is obtained.
+   (d) If such functions are used to perform any operation, they act independently. They read data values and print result in the same block.
+   (e) Such functions may be useful to print some message, draw a line or spilt the line.
+
+2. With arguments but without return values-
+
+   (a) In the above functions, arguments are passed through the calling function. The called function operates on the values. But no result is sent back
+   (b) Such functions are partly dependent on the calling function. The result obtained is utilized by the called function and there is no gain to the main().
+
+3. With arguments and return values-
+
+   (a) In the above example, the copy of the actual argument is passed to the formal argument, i.e. the value of ‘x’ is assigned to ‘y’.
+   (b) The return statement returns the incremented value of ‘y’. The returned value is collected by ‘z’.
+   (c) Here, data is transferred between calling and called functions, i.e. communication between functions is made.
+
+4. Without arguments and but with return values-
+
+   (a) In the above type of function, no argument(s) is passed through the main() function. But the called function returns values.
+   (b) The called function is independent. It reads values from keyboard or generates from initialization and returns the values.
+   (c) Here, both the calling and called functions partly communicate with each other.

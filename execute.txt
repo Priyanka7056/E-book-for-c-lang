@@ -1,0 +1,18 @@
+A C program must go through various phases such as creating a program with editor, execution of preprocessor program, compilation, linking, loading and executing the 
+program. The following steps are essential in C when a program is to be executed in MS-DOS mode:
+
+1. Creation of a Program: The program should be written in C editor. The file name does not necessarily include extension ‘.C’. The default extension is ‘.C’. 
+                          The user can also specify his/her own extension. The C program includes preprocessor directives.
+
+2. Execution of a Preprocessor Program: After writing a program with C editor the programmer has to compile the program with the command (Alt-C). The preprocessor 
+                                        program executes first automatically before the compilation of the program. A programmer can include other files in the 
+                                        current file. Inclusion of other files is done initially in the preprocessor section.
+
+3. Compilation and Linking of a Program: The source program contains statements that are to be translated into object codes. These object codes are suitable for 
+                                         execution by the computer. If a program contains errors the programmer should correct them. If there is no error in the 
+                                         program, compilation proceeds and translated program is stored in another file with the same file name with extension ‘.obj’. 
+                                         This object file is stored on the secondary storage device such as a disc.
+
+4. Executing the Program: After the compilation the executable object code will be loaded in the computer’s main memory and the program is executed. The loader performs
+                          this function. All the above steps/phases of C program can be performed using menu options of the editor.
+

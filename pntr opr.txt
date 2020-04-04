@@ -1,0 +1,59 @@
+Arithmetic operations on pointer variables are also possible. Increment, decrement, prefix and postfix operations can be performed with the pointers. 
+
+
+SAMPLE PROGRAM
+---------------
+
+void main()
+
+{
+
+int x,*x1;
+
+char y,*y1;
+
+float z,*z1;
+
+clrscr();
+
+printf(“Enter integer, character, float Values \n”);
+
+scanf(“%d %c %f”,&x,&y,&z);
+
+x1=&x;
+
+y1=&y;
+
+z1=&z;
+
+printf(“Address of x = %u\n”,x1);
+
+printf(“Address of y = %u\n”,y1);
+
+printf(“Address of z = %u\n”,z1);
+
+x1++;
+
+y1++;
+
+z1++;
+
+printf(“\nAfter Increment in Pointers\n”);
+
+printf(“\nNow Address of x=%u\n”,x1);
+
+printf(“Now Address of y=%u\n”,y1);
+
+printf(“Now Address of z=%u\n”,z1);
+
+printf(“\nSize of Integer: %d”,sizeof(x));
+
+printf(“\nSize of Character: %d”,sizeof(y));
+
+printf(“\nSize of Float: %d”,sizeof(z));
+
+}
+
+
+DO YOU WANT TO RUN THIS CODE ?
+PRESS 1 FOR YES OR 0 FOR NO..

@@ -1,0 +1,41 @@
+The user-defined function uses the return statement to return the value to the calling function. Exit from the called function to the calling function is done by the use of 
+the return statement. When the return statement is executed without argument, it always return 1.
+
+1. return 0: This statement returns zero to the operating system if the value entered by the user is 1 or negative.
+
+2. return: The value of ‘x’ is passed to the function pass(). If the value is zero then the return statement returns 1.The return statement is used to exit from the function 
+   pass().
+
+3. return (a*a*a): In a function pass(), when the if statement finds the value of ‘x’ as non-zero then else block is executed and the return statement returns the cube of the 
+   entered number.
+   The return statement can be used in the following ways.
+
+   1. return(expression);
+      Example:
+      
+      return(a+b+c);
+
+      If such a statement is executed, the expression within the parentheses is first solved and the result obtained is returned.
+
+   2. A function may use one or more return statements. It is used when we want to return a value depending upon certain conditions.
+
+   3. return(&p);
+      If above syntax is used, it returns the address of the variable.
+
+   4. return(*p);
+      The above statement returns the value of a variable through the pointer.
+
+   5. return(sqrt(r));
+      If such a format is used, when control reaches to the return statement, control again passes to function sqrt(). The return statement collects the result obtained from sqrt() 
+      function and returns it to the calling function. Here, the return statement calls the function sqrt().
+
+   6. return(float(square(2.8));
+      All functions return by default integer value. To force the function return other type of value, specify the data type to be used. When a value is returned, it automatically 
+      converts to the function data type. In the above example, the return value will be converted to float type.
+
+From the above discussion we can conclude the following:
+
+1. When the return statement is encountered in the function the control sends back to the calling function and next statement following return statement if present will not be 
+   executed.
+2. The absence of the return statement indicates that no value is returned. Such functions are called a void.
+s

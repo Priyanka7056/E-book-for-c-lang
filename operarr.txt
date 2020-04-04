@@ -1,0 +1,51 @@
+1. Searching: An array element can be searched. The process of seeking specific elements in an array is called searching.
+
+2. Sorting: Arranging elements in a specific order either in ascending or in descending order is known sorting. Sorting is a very important 
+   operation and compulsorily used in database application programs. Let us study the following program, which sorts an array of integers, 
+   and store them in another array.
+
+
+ SAMPLE PROBLEM
+----------------
+
+void main()
+
+{
+
+int num[5],j,k,s=0;
+
+clrscr();
+
+printf(“\n Enter five Elements :”);
+
+for(j=0;j<5;j++)
+
+{
+
+  scanf(“%d”,&num[j]);
+
+  s=s+num[j];
+
+}
+
+for(k=0;k<s;k++)
+
+{
+
+  for(j=0;j<5;j++)
+
+  {
+
+    if(num[j]==k)
+
+    printf(“%d”,num[j]);
+
+  }
+
+}
+
+}
+
+
+DO YOU WANT TO RUN THIS CODE ?
+PRESS 1 FOR YES OR 0 FOR NO...

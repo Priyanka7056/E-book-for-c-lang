@@ -1,0 +1,6 @@
+1.	What is strings
+2.	Declaration and initialization of strings
+3.	Display of strings
+4.	String standard functions
+
+
